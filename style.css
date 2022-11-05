@@ -46,6 +46,42 @@ a:hover {
   text-decoration: none;
 }
 
+/* nav bar styles */
+nav {
+  font-family: var(--mono);
+  font-size: 80%;
+  padding: 1rem;
+}
+
+.nav-name {
+  font-family: var(--sans);
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover {
+  color: var(--magenta);
+}
+
 /* intro styles */
 #intro {
   padding-bottom: 10rem;
@@ -80,9 +116,10 @@ a:hover {
 }
 #contact-me {
   width: 100%;
+  margin: 0 auto;
   padding: 4rem;
-  text-align: center;
   background-color: var(--plum);
+  text-align: center;
   font-weight: normal;
 }
 
