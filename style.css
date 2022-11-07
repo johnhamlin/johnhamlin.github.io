@@ -56,6 +56,11 @@ nav {
 .nav-name {
   font-family: var(--sans);
 }
+
+.nav-name-text {
+  margin-left: 0.5rem;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -120,6 +125,9 @@ nav [class*='fa-']:hover {
 /* intro styles */
 #intro {
   padding-bottom: 10rem;
+  padding-left: 1rem;
+  max-width: 1200px;
+  margin: 4rem auto;
 }
 
 #intro p {
@@ -161,4 +169,23 @@ nav [class*='fa-']:hover {
 #contact-me a {
   font-family: var(--mono);
   color: var(--white);
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 4rem;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 300%;
 }
